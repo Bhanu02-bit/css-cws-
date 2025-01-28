@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+        @keyframes button {
+            0%{
+                transform: translateY(0%);
+            }
+            25%{
+                transform: translateY(100vh);
+            }
+            50%{
+                transform: translateX(75vh);
+            }
+            75%{
+                transform: translateX(80vh);
+            }
+            80%{
+                transform: translateX(100vh);
+            }
+            85%{
+                transform: translateX(80vh);
+            }
+            90%{
+                transform: translateY(100vh);
+            }
+            95%{
+                transform: translateX(75vh)
+            }
+            97%{
+                transform: translateX(80vh)
+            }
+            99%{
+                transform: translateX(85vh)
+            }
+            100%{
+                transform: translateY(-64vh);
+
+            }
+    
+
+            
+        }
+         .button{
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            border-radius: 80px;
+           
+            
+            
+            animation: button 1s ease-in 1s infinite;
+            
+
+
+
+         }
+        button:hover {
+            background-color:blue;
+            color: white;
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <button class="button">transition</button>
+</body>
+</html>
